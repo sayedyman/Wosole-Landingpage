@@ -54,9 +54,11 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
+  overflow-x: hidden;
   font-family: var(--font-family);
   font-size: var(--font-size-body);
   color: var(--color-text-primary);
@@ -589,6 +591,7 @@ ul {
   
   .c-btn {
     width: 100%;
+    max-width: 100%;
   }
   
   .hero__image {
