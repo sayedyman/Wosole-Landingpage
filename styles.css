@@ -521,8 +521,12 @@ ul {
     padding-right: 40px;
   }
 
+  .l-grid {
+    grid-template-columns: 1fr;
+  }
+
   .hero__content {
-    grid-column: span 12;
+    grid-column: 1 / -1;
     text-align: center;
     max-width: 100%;
   }
@@ -536,12 +540,12 @@ ul {
   }
 
   .hero__image-wrapper {
-    grid-column: span 12;
+    grid-column: 1 / -1;
     margin-top: var(--spacing-4);
   }
 
   .split-section__image, .split-section__content {
-    grid-column: span 12;
+    grid-column: 1 / -1;
     padding-inline-start: 0;
   }
   
