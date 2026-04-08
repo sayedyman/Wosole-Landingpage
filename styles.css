@@ -95,7 +95,7 @@ ul {
   width: 100%;
   max-width: var(--container-max-width);
   margin-inline: auto;
-  padding-inline: var(--container-padding);
+  padding-inline: 100px;
 }
 
 .l-section {
@@ -514,8 +514,8 @@ ul {
 
 /* Responsive Media Queries */
 @media (max-width: 1024px) {
-  :root {
-    --container-padding: 40px;
+  .container {
+    padding-inline: 40px;
   }
 
   .hero__content {
@@ -550,8 +550,8 @@ ul {
 }
 
 @media (max-width: 768px) {
-  :root {
-    --container-padding: 24px;
+  .container {
+    padding-inline: 24px;
   }
 
   .features__grid {
