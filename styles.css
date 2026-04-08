@@ -91,7 +91,8 @@ ul {
 .text-secondary-color { color: var(--color-text-secondary); }
 
 /* Layout Components */
-.l-container {
+.container {
+  width: 100%;
   max-width: var(--container-max-width);
   margin-inline: auto;
   padding-inline: var(--container-padding);
